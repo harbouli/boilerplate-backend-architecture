@@ -5,18 +5,18 @@ services:
     routes:
       - name: nestjs-route
         paths:
-          - /
+          - /nestjs
 
   - name: go-service
     url: http://go-service:4000
     routes:
       - name: go-route
         paths:
-          - /
+          - /go
 
   - name: django-service
     url: http://django-service:8000
     routes:
       - name: django-route
         paths:
-          - /
+          - /django
