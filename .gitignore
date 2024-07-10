@@ -12,8 +12,7 @@ yarn-error.log*
 
 # Docker
 docker-compose.override.yml
-Dockerfile
-docker-compose.yml
+
 *.pid
 *.sock
 
