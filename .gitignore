@@ -1,0 +1,139 @@
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Docker
+docker-compose.override.yml
+Dockerfile
+docker-compose.yml
+*.pid
+*.sock
+
+# NestJS
+/dist
+/.cache
+/.idea
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Go
+/bin
+/pkg
+/vendor
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# Django
+*.sqlite3
+db.sqlite3
+/media
+/static
+staticfiles/
+.local
+
+# Kafka
+*.log
+*.out
+*.sh
+/tmp
+
+# macOS
+.DS_Store
+
+# IDEs
+.idea/
+.vscode/
+*.iml
+
+# System files
+Thumbs.db
+.DS_Store
+
+# Environment Variables
+.env
+.env.*.local
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# Virtual Environment
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+.venv/
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# pyenv
+.python-version
+
+# celery beat schedule file
+celerybeat-schedule
+
+# SageMath parsed files
+*.sage.py
+
+# dotenv
+.env
+.env.*
+
+# virtualenv
+.env/
+.venv/
+env/
+venv/
+ENV/
+
+# pyenv
+.python-version
+
+# mypy
+.mypy_cache/
+
+# system files
+*.DS_Store
